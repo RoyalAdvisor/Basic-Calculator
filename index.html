@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator shadow">
+            <div id="output"></div>
+            <div class="buttons">
+                <button class="btn" onclick="addToSum('1')">1</button>
+                <button class="btn" onclick="addToSum('2')">2</button>
+                <button class="btn" onclick="addToSum('3')">3</button>
+                <button class="btn" onclick="addToSum('4')">4</button>
+            </div>
+            <div class="buttons">
+                <button class="btn" onclick="addToSum('5')">5</button>
+                <button class="btn" onclick="addToSum('6')">6</button>
+                <button class="btn" onclick="addToSum('7')">7</button>
+                <button class="btn" onclick="addToSum('8')">8</button>
+            </div>
+            <div class="buttons">
+                <button class="btn" onclick="addToSum('9')">9</button>
+                <button class="btn" onclick="addToSum('0')">0</button>
+                <button class="btn" onclick="addToSum('.')">.</button>
+                <button class="btn" onclick="addToSum('/')">/</button>
+            </div>
+            <div class="buttons">
+                <button class="btn" onclick="addToSum('+')">+</button>
+                <button class="btn" onclick="addToSum('*')">*</button>
+                <button class="btn" onclick="addToSum('-')">-</button>
+                <button class="btn" onclick="evaluateSum()">=</button>
+            </div>
+            <div class="buttons">
+                <button class="btn clear" onclick="clearSum()">CLR</button>
+                <div class="buttons"></div>
+            </div>
+        </div>
+    </div>
+      
+<script src="/JS/bootstrap.min.js"></script>
+<script src="/JS/index.js"></script>
+</body>
+</html>
